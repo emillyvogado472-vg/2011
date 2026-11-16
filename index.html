@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laboratorio web ! menu sticky</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="cabecalho" id="inicio">
+<div class="cabecalho-conteudo">
+<span class="etiqueta">AULA PTATICA . HTML5 + CSS3</span>
+<H1>laboratorio <span>WEB</span></H1>
+<p>descubra como criar um menu que acompanha a rolagem da pagina</p>
+<div class="detalhe">role a pagina para testar</div>
+</div>
+    </header>
+    <nav class="menu" aria-label="menu principal">
+     <div class="menu-conteudo">
+     <a class="marca" href="#inicio">LW <span>.</span> </a>
+     <ul>
+        <li><a href="#inicio">inicio</a></li>
+        <li><a href="#html">html</a></li>
+        <li><a href="#css"></a>css</li>
+        <li><a href="#sticky"></a>sticky</li>
+        <li><a href="#desafio"></a>desafio</li>
+     </ul>
+     </div>
+    </nav>
+    <main>
+        <section id="html" class="secao secao-html">
+            <div class="conteudo">
+         <span class="conteudo">01 estrututa</span>
+         <h2>html :a estrututa da pagina</h2>
+         <p>o html organiza titulos,paragrafos,menus e secoes.nesta pagina,usamos <code>&lt ;</code> , <code>&lt ,nav&gt ;</code> , <code>&lt ;main&gt</code> , <code>*lt ;section&gt</code>.</p>
+         <div class="destaque">observe: o cabecalho ja saiu da tela,ma so menu continua acessivel!</div>
+            </div>
+        </section>
+        <section id="css" class="secao secao-css">
+            <div class="conteudo">
+<span class="numero">02 /aparencia</span>
+<h2>css: cores e efeitos</h2>
+<p>o css controla a aparencia do cite.experimente mudar as cores ,os tamanhos das fontes e o efeito <code>:hover</code>dos links.</p>
+<div class="destaque">passe os mouse sobre os itens do menu e observe a animacao.</div>
+            </div>
+        </section>
+        <section id="sticky" class="secao secao-stiky">
+            <div class="conteudo">
+            <span class="numero">03 /posicionamento</span>
+            <h2>o segredo: position: sticky</h2>
+            <p>com <code>position : sticky</code> e <code>top 0</code> o menu acompanha o fluxo da pagina ate alcancar o topo da janela. a partir dai permac=nece visivel enquanto voce rola.</p>
+            <div class="destaque">diferente de <code>position: fidex</code>o menu ocupa seu espaca normal antes de grudar.</div>
+            </div>
+        </section>
+        <section id="desafio" class="secao secao-desafio">
+            <div class="conteudo">
+           <span class="numero">04 /sua vez</span>
+           <h2>desafio para os estudantes</h2>
+           <p>altere a cor do menu,troque a altura do cabecalho para 250px e modifique o efeito ao passar o mouse. depois retire temporariamente o modifique o <code>position: sticky</code>para comparar</p>
+           <div class="destaque">volte no inicio usando o menu e veja o cabecalho reaparecer</div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">laboratorio web . atividade prarica de html5 e css3</footer>
+</body>
+</html>
